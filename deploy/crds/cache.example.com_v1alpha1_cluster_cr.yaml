@@ -1,0 +1,10 @@
+apiVersion: cache.example.com/v1alpha1
+kind: Cluster
+metadata:
+  name: example-handler
+spec:
+  # Add fields here
+  size: 3
+  repository: quay.io/coreos/etcd
+  version: 3.2.13
+
